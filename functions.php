@@ -36,3 +36,18 @@ function average($arrayData)
     return $average;
 
 }
+
+function removeDups($arrayData)
+{
+    sort($arrayData);
+
+    for ($i = count($arrayData); $i > 0; $i--)
+    {
+        if($arrayData[$i] == $arrayData[$i - 1])
+        {
+            unset($arrayData[$i]);
+        }
+    }
+
+    return $arrayData;
+}

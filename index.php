@@ -13,6 +13,13 @@ $avg = "<br>" . average($numbers);
 
 echo "<br>" . "Average: " . $avg;
 
+$newArray = removeDups($numbers);
+foreach($newArray as $value)
+{
+   echo "<br>" . $value;
+}
+
+
 ?>
 <!doctype html>
 <html lang="en">
