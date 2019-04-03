@@ -22,3 +22,17 @@ function largest($arrayData)
     }
     return $max;
 }
+
+function avverage($arrayData)
+{
+    $total = 0;
+    foreach($arrayData as $value)
+    {
+        $total = $total + $value;
+    }
+
+    $average = $total / count($arrayData);
+
+    return $average;
+
+}

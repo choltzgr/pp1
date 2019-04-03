@@ -7,7 +7,9 @@ $numbers = array(7, 9, 8, 9, 8, 8, 6);
 printArr($numbers);
 
 $large = largest($numbers);
-echo "<br>" . "Largest Number is: " . $large . "<br>";
+echo "<br>" . "Largest Number is: " . $large ;
+
+echo "Average: " . average($numbers);
 ?>
 <!doctype html>
 <html lang="en">
