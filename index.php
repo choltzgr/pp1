@@ -7,7 +7,7 @@ $numbers = array(7, 9, 8, 9, 8, 8, 6);
 printArr($numbers);
 
 $large = largest($numbers);
-echo $large;
+echo "<br>" . "Largest Number is: " . $large . "<br>";
 ?>
 <!doctype html>
 <html lang="en">

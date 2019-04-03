@@ -5,6 +5,7 @@ function printArr($data)
     foreach ($data as $value)
     {
         echo $value;
+        echo "<br>";
     }
 }
 
@@ -18,7 +19,6 @@ function largest($arrayData)
         {
             $max = $value;
         }
-
-        return $max;
     }
+    return $max;
 }
