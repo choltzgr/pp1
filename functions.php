@@ -51,3 +51,26 @@ function removeDups($arrayData)
 
     return $arrayData;
 }
+
+function distribution($arrayData)
+{
+    sort($arrayData);
+    $newArray = [];
+
+    foreach($arrayData as $value)
+    {
+        if(array_key_exists($value, $newArray))
+        {
+            $newArray[$value]++;
+        }
+        else
+        {
+            $newArray[$value] = 1;
+        }
+    }
+
+    //sort($newArray);
+
+   // var_dump($newArray);
+    return $newArray;
+}

@@ -19,6 +19,15 @@ foreach($newArray as $value)
    echo "<br>" . $value;
 }
 
+$dist = distribution($numbers);
+
+echo "<br>"."[";
+foreach($dist as $key => $value)
+{
+    echo " " .$key."=>".$value." ";
+}
+echo "]"."<br>";
+
 
 ?>
 <!doctype html>
