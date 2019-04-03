@@ -23,7 +23,7 @@ function largest($arrayData)
     return $max;
 }
 
-function avverage($arrayData)
+function average($arrayData)
 {
     $total = 0;
     foreach($arrayData as $value)
